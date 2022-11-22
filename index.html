@@ -1,0 +1,2313 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c87d69d38e53a0ea953cd621ccd456aa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c87d69d38e53a0ea953cd621ccd456aa" ></div>
+        
+</body>
+<script>    
+    
+            var map_c87d69d38e53a0ea953cd621ccd456aa = L.map(
+                "map_c87d69d38e53a0ea953cd621ccd456aa",
+                {
+                    center: [52.52, 13.4],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_245c7061633f1536f5140ab2ddc43b8b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var marker_b8abea767cb9ff26a9b3d6e0d95ff199 = L.marker(
+                [52.52115, 13.4129],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_f1030a8a4de953632726753ec1c6637f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b8abea767cb9ff26a9b3d6e0d95ff199.setIcon(icon_f1030a8a4de953632726753ec1c6637f);
+        
+    
+        var popup_0dc8a88198b074fb0b032ec97b06d972 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af9cbf7a3ced5e42e78ba9c6e81cafd1 = $(`<div id="html_af9cbf7a3ced5e42e78ba9c6e81cafd1" style="width: 100.0%; height: 100.0%;">McDonalds<br>Alexanderplatz 1<br>10178 Berlin</div>`)[0];
+            popup_0dc8a88198b074fb0b032ec97b06d972.setContent(html_af9cbf7a3ced5e42e78ba9c6e81cafd1);
+        
+
+        marker_b8abea767cb9ff26a9b3d6e0d95ff199.bindPopup(popup_0dc8a88198b074fb0b032ec97b06d972)
+        ;
+
+        
+    
+    
+            var marker_814748b23fe338bf7dba0985ceb297cd = L.marker(
+                [52.52584, 13.36913],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_c484311faac3700898439db763cecb20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_814748b23fe338bf7dba0985ceb297cd.setIcon(icon_c484311faac3700898439db763cecb20);
+        
+    
+        var popup_cf64ae65967b7b761fd124f9ee73be57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0592b3d5e134284a94da5003d31d9ea6 = $(`<div id="html_0592b3d5e134284a94da5003d31d9ea6" style="width: 100.0%; height: 100.0%;">McDonalds<br>Europaplatz 1<br>10557 Berlin</div>`)[0];
+            popup_cf64ae65967b7b761fd124f9ee73be57.setContent(html_0592b3d5e134284a94da5003d31d9ea6);
+        
+
+        marker_814748b23fe338bf7dba0985ceb297cd.bindPopup(popup_cf64ae65967b7b761fd124f9ee73be57)
+        ;
+
+        
+    
+    
+            var marker_359375a30494ce4fc891f37cb3ce76af = L.marker(
+                [52.4647, 13.32815],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_55a01ac66660d89244dccad7db743f98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_359375a30494ce4fc891f37cb3ce76af.setIcon(icon_55a01ac66660d89244dccad7db743f98);
+        
+    
+        var popup_9522a3ec516e3254b861246977b30ae0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d80f0b9dabf0a2407c1d9fa2712b76ca = $(`<div id="html_d80f0b9dabf0a2407c1d9fa2712b76ca" style="width: 100.0%; height: 100.0%;">McDonalds<br>Walther-Schreiber-Platz 1<br>12161 Berlin</div>`)[0];
+            popup_9522a3ec516e3254b861246977b30ae0.setContent(html_d80f0b9dabf0a2407c1d9fa2712b76ca);
+        
+
+        marker_359375a30494ce4fc891f37cb3ce76af.bindPopup(popup_9522a3ec516e3254b861246977b30ae0)
+        ;
+
+        
+    
+    
+            var marker_d87c3f534a2fc685c99127a1b7f41274 = L.marker(
+                [52.54685, 13.4685],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_97da38dbbebc1c85be196789c1e96b8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d87c3f534a2fc685c99127a1b7f41274.setIcon(icon_97da38dbbebc1c85be196789c1e96b8b);
+        
+    
+        var popup_d0c8725fad894d08145f703d71ba36fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b340a2fa08201ac659e12964164c1425 = $(`<div id="html_b340a2fa08201ac659e12964164c1425" style="width: 100.0%; height: 100.0%;">McDonalds<br>Hansastra�e 1<br>13053 Berlin</div>`)[0];
+            popup_d0c8725fad894d08145f703d71ba36fe.setContent(html_b340a2fa08201ac659e12964164c1425);
+        
+
+        marker_d87c3f534a2fc685c99127a1b7f41274.bindPopup(popup_d0c8725fad894d08145f703d71ba36fe)
+        ;
+
+        
+    
+    
+            var marker_924c27658566250d66f7457da20689ff = L.marker(
+                [52.54885, 13.38799],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_9d81a621f81a58d7fcf73b021a4eeec1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_924c27658566250d66f7457da20689ff.setIcon(icon_9d81a621f81a58d7fcf73b021a4eeec1);
+        
+    
+        var popup_9abfbada63aeadce860a7c396be15618 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d784949f3117e231cff7d4fcc0399194 = $(`<div id="html_d784949f3117e231cff7d4fcc0399194" style="width: 100.0%; height: 100.0%;">McDonalds<br>Hanne-Sobek-Platz 1<br>13357 Berlin</div>`)[0];
+            popup_9abfbada63aeadce860a7c396be15618.setContent(html_d784949f3117e231cff7d4fcc0399194);
+        
+
+        marker_924c27658566250d66f7457da20689ff.bindPopup(popup_9abfbada63aeadce860a7c396be15618)
+        ;
+
+        
+    
+    
+            var marker_24b1d369b33243296adf868f678d418d = L.marker(
+                [52.52024, 13.4147],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_9ceeb45fff7358645a670873f2409bf8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_24b1d369b33243296adf868f678d418d.setIcon(icon_9ceeb45fff7358645a670873f2409bf8);
+        
+    
+        var popup_38ed7e268f2d1b9dab50964b1cfa6c60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee6f2a813f46ed73e9d0624890d52e4c = $(`<div id="html_ee6f2a813f46ed73e9d0624890d52e4c" style="width: 100.0%; height: 100.0%;">McDonalds<br>Grunerstra�e 20<br>10179 Berlin</div>`)[0];
+            popup_38ed7e268f2d1b9dab50964b1cfa6c60.setContent(html_ee6f2a813f46ed73e9d0624890d52e4c);
+        
+
+        marker_24b1d369b33243296adf868f678d418d.bindPopup(popup_38ed7e268f2d1b9dab50964b1cfa6c60)
+        ;
+
+        
+    
+    
+            var marker_7bdc4eeef33bc82685414e1af4c79f02 = L.marker(
+                [52.55619, 13.37856],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_43e9a91bc9cc8e48cee51f0a0bf7dacc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7bdc4eeef33bc82685414e1af4c79f02.setIcon(icon_43e9a91bc9cc8e48cee51f0a0bf7dacc);
+        
+    
+        var popup_e970b3b7b6d6db3344296d65f5431da2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a29ca392783909c772843624cfcf5dac = $(`<div id="html_a29ca392783909c772843624cfcf5dac" style="width: 100.0%; height: 100.0%;">McDonalds<br>Osloer Stra�e<br>13359 Berlin</div>`)[0];
+            popup_e970b3b7b6d6db3344296d65f5431da2.setContent(html_a29ca392783909c772843624cfcf5dac);
+        
+
+        marker_7bdc4eeef33bc82685414e1af4c79f02.bindPopup(popup_e970b3b7b6d6db3344296d65f5431da2)
+        ;
+
+        
+    
+    
+            var marker_5c8138084412798e1f8df9c6de36606a = L.marker(
+                [52.45658, 13.50952],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_9389df76c06ae89a5c68b065a018b553 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5c8138084412798e1f8df9c6de36606a.setIcon(icon_9389df76c06ae89a5c68b065a018b553);
+        
+    
+        var popup_3831ee66e566be4af65ae639e327c9c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58f9cb42429f1884b710bddb6f7d8f7d = $(`<div id="html_58f9cb42429f1884b710bddb6f7d8f7d" style="width: 100.0%; height: 100.0%;">McDonalds<br>Schnellerstra�e 21<br>12439 Berlin</div>`)[0];
+            popup_3831ee66e566be4af65ae639e327c9c6.setContent(html_58f9cb42429f1884b710bddb6f7d8f7d);
+        
+
+        marker_5c8138084412798e1f8df9c6de36606a.bindPopup(popup_3831ee66e566be4af65ae639e327c9c6)
+        ;
+
+        
+    
+    
+            var marker_6dc80d21852a89a1f974976e6d557f45 = L.marker(
+                [52.46949, 13.37148],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_7420d687fccd6bbd2d80ac08db944483 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6dc80d21852a89a1f974976e6d557f45.setIcon(icon_7420d687fccd6bbd2d80ac08db944483);
+        
+    
+        var popup_94d0a2341e14c85cdcee3e1f6a6c67e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_914bf01dcb5c77a8c986eeff1a0d99d8 = $(`<div id="html_914bf01dcb5c77a8c986eeff1a0d99d8" style="width: 100.0%; height: 100.0%;">McDonalds<br>Alboinstra�e 4<br>12103 Berlin</div>`)[0];
+            popup_94d0a2341e14c85cdcee3e1f6a6c67e5.setContent(html_914bf01dcb5c77a8c986eeff1a0d99d8);
+        
+
+        marker_6dc80d21852a89a1f974976e6d557f45.bindPopup(popup_94d0a2341e14c85cdcee3e1f6a6c67e5)
+        ;
+
+        
+    
+    
+            var marker_9678a6840c06815e70773d3e97518a77 = L.marker(
+                [52.50941, 13.49766],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_2bde6f48f65ac27bffa3a8841a43e1df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9678a6840c06815e70773d3e97518a77.setIcon(icon_2bde6f48f65ac27bffa3a8841a43e1df);
+        
+    
+        var popup_c72824d5c0bc4a9d0c18ad1674b5f494 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_304186df58f507d6ccf4fc560aeccc36 = $(`<div id="html_304186df58f507d6ccf4fc560aeccc36" style="width: 100.0%; height: 100.0%;">McDonalds<br>Weitlingstra�e 22<br>10317 Berlin</div>`)[0];
+            popup_c72824d5c0bc4a9d0c18ad1674b5f494.setContent(html_304186df58f507d6ccf4fc560aeccc36);
+        
+
+        marker_9678a6840c06815e70773d3e97518a77.bindPopup(popup_c72824d5c0bc4a9d0c18ad1674b5f494)
+        ;
+
+        
+    
+    
+            var marker_cbc5520cec025505718ec444477deb90 = L.marker(
+                [52.43657, 13.24359],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_201dc2e4e2e3c21c883d0df2ef409131 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cbc5520cec025505718ec444477deb90.setIcon(icon_201dc2e4e2e3c21c883d0df2ef409131);
+        
+    
+        var popup_cedce9273c712289de145722fa78c8fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d85a141336427250785bd9636b49e322 = $(`<div id="html_d85a141336427250785bd9636b49e322" style="width: 100.0%; height: 100.0%;">McDonalds<br>Gro�beerenstra�e 22<br>12107 Berlin</div>`)[0];
+            popup_cedce9273c712289de145722fa78c8fa.setContent(html_d85a141336427250785bd9636b49e322);
+        
+
+        marker_cbc5520cec025505718ec444477deb90.bindPopup(popup_cedce9273c712289de145722fa78c8fa)
+        ;
+
+        
+    
+    
+            var marker_cb409dbfa06751bbf009b6fec03ea1d7 = L.marker(
+                [52.50088, 13.43639],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_9890a145b97c7397df8dab62db603260 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cb409dbfa06751bbf009b6fec03ea1d7.setIcon(icon_9890a145b97c7397df8dab62db603260);
+        
+    
+        var popup_000461653d218b9298f0d10e20ec3575 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65df116c2501c3073f803414b4f7dcd6 = $(`<div id="html_65df116c2501c3073f803414b4f7dcd6" style="width: 100.0%; height: 100.0%;">McDonalds<br>Wrangelstra�e 35<br>10997 Berlin</div>`)[0];
+            popup_000461653d218b9298f0d10e20ec3575.setContent(html_65df116c2501c3073f803414b4f7dcd6);
+        
+
+        marker_cb409dbfa06751bbf009b6fec03ea1d7.bindPopup(popup_000461653d218b9298f0d10e20ec3575)
+        ;
+
+        
+    
+    
+            var marker_e4046f706802505dba7571cde8d263a2 = L.marker(
+                [52.43154, 13.25904],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_15b303afbba62c2f6881cf62bedcf563 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e4046f706802505dba7571cde8d263a2.setIcon(icon_15b303afbba62c2f6881cf62bedcf563);
+        
+    
+        var popup_566fba7526e6bc2253cdda4da6a632e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27b7d43d844fbc757a2c6dc7889ca4e1 = $(`<div id="html_27b7d43d844fbc757a2c6dc7889ca4e1" style="width: 100.0%; height: 100.0%;">McDonalds<br>Teltower Damm 35<br>14169 Berlin</div>`)[0];
+            popup_566fba7526e6bc2253cdda4da6a632e9.setContent(html_27b7d43d844fbc757a2c6dc7889ca4e1);
+        
+
+        marker_e4046f706802505dba7571cde8d263a2.bindPopup(popup_566fba7526e6bc2253cdda4da6a632e9)
+        ;
+
+        
+    
+    
+            var marker_a53b676e40841b5bb37a78df9ec66bb0 = L.marker(
+                [52.50412, 13.46867],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_7d4d9ebf08288947ec9ad6498a90fec4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a53b676e40841b5bb37a78df9ec66bb0.setIcon(icon_7d4d9ebf08288947ec9ad6498a90fec4);
+        
+    
+        var popup_fd7bcee9ee17607e939e9cc48cdf7a79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd5866ec8b45fd3d46ab0d6e5709c260 = $(`<div id="html_dd5866ec8b45fd3d46ab0d6e5709c260" style="width: 100.0%; height: 100.0%;">McDonalds<br>Sonntagsstra�e 37<br>10245 Berlin</div>`)[0];
+            popup_fd7bcee9ee17607e939e9cc48cdf7a79.setContent(html_dd5866ec8b45fd3d46ab0d6e5709c260);
+        
+
+        marker_a53b676e40841b5bb37a78df9ec66bb0.bindPopup(popup_fd7bcee9ee17607e939e9cc48cdf7a79)
+        ;
+
+        
+    
+    
+            var marker_654d1b9de5a47e106240ca235b40d0f0 = L.marker(
+                [52.56077, 13.32336],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_627206f1f8dbe987627177e19cc329cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_654d1b9de5a47e106240ca235b40d0f0.setIcon(icon_627206f1f8dbe987627177e19cc329cb);
+        
+    
+        var popup_f645ca212a1ad36014d214a1e0755131 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee8137847b8b03dd49fb6a03ef3e9738 = $(`<div id="html_ee8137847b8b03dd49fb6a03ef3e9738" style="width: 100.0%; height: 100.0%;">McDonalds<br>Kurt-Schumacher-Damm 38<br>13405 Berlin</div>`)[0];
+            popup_f645ca212a1ad36014d214a1e0755131.setContent(html_ee8137847b8b03dd49fb6a03ef3e9738);
+        
+
+        marker_654d1b9de5a47e106240ca235b40d0f0.bindPopup(popup_f645ca212a1ad36014d214a1e0755131)
+        ;
+
+        
+    
+    
+            var marker_85217adeff1dde443fbfe9fab5c33e83 = L.marker(
+                [52.56085, 13.42805],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_e6d6f83a9b33ecdba83c0fef1478c50c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_85217adeff1dde443fbfe9fab5c33e83.setIcon(icon_e6d6f83a9b33ecdba83c0fef1478c50c);
+        
+    
+        var popup_1729638396487eb30926abc775a2bb44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7b40eb7f303a989253b444ed33cd1ab = $(`<div id="html_e7b40eb7f303a989253b444ed33cd1ab" style="width: 100.0%; height: 100.0%;">McDonalds<br>Prenzlauer Promenade 45<br>13089 Berlin</div>`)[0];
+            popup_1729638396487eb30926abc775a2bb44.setContent(html_e7b40eb7f303a989253b444ed33cd1ab);
+        
+
+        marker_85217adeff1dde443fbfe9fab5c33e83.bindPopup(popup_1729638396487eb30926abc775a2bb44)
+        ;
+
+        
+    
+    
+            var marker_daf6d1686a5e29e785ac227ac9f0b5ef = L.marker(
+                [52.50972, 13.30573],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_c8ab121ba7bfab08693738fba7c759d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_daf6d1686a5e29e785ac227ac9f0b5ef.setIcon(icon_c8ab121ba7bfab08693738fba7c759d0);
+        
+    
+        var popup_b2d70b63d421c114b7ab403e538e7d46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36a9aec1b9f3ea82370a7e317ff4e105 = $(`<div id="html_36a9aec1b9f3ea82370a7e317ff4e105" style="width: 100.0%; height: 100.0%;">McDonalds<br>Wilmersdorfer Stra�e 46<br>10629 Berlin</div>`)[0];
+            popup_b2d70b63d421c114b7ab403e538e7d46.setContent(html_36a9aec1b9f3ea82370a7e317ff4e105);
+        
+
+        marker_daf6d1686a5e29e785ac227ac9f0b5ef.bindPopup(popup_b2d70b63d421c114b7ab403e538e7d46)
+        ;
+
+        
+    
+    
+            var marker_afed385377162668be666d1a3d664f60 = L.marker(
+                [52.44783, 13.59282],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_08f047f64e332dbb12d6e11e7ad7bb66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_afed385377162668be666d1a3d664f60.setIcon(icon_08f047f64e332dbb12d6e11e7ad7bb66);
+        
+    
+        var popup_1c5b26384e627e23eabeac26b5da37dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54494176436976fbd02705527fe619d4 = $(`<div id="html_54494176436976fbd02705527fe619d4" style="width: 100.0%; height: 100.0%;">McDonalds<br>Wendenschlo�stra�e 2<br>12559 Berlin</div>`)[0];
+            popup_1c5b26384e627e23eabeac26b5da37dc.setContent(html_54494176436976fbd02705527fe619d4);
+        
+
+        marker_afed385377162668be666d1a3d664f60.bindPopup(popup_1c5b26384e627e23eabeac26b5da37dc)
+        ;
+
+        
+    
+    
+            var marker_43cfd6c90717aa122c0a7e3b3997a467 = L.marker(
+                [52.52744, 13.23347],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_4f31ef2590bfb74f5d825035d513e01e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_43cfd6c90717aa122c0a7e3b3997a467.setIcon(icon_4f31ef2590bfb74f5d825035d513e01e);
+        
+    
+        var popup_f3b9671256267f17a7a88fcc7b690bfa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4f57b58995309e9f26b0ee55eea8193 = $(`<div id="html_a4f57b58995309e9f26b0ee55eea8193" style="width: 100.0%; height: 100.0%;">McDonalds<br>Charlottenburger Chaussee 49<br>13597 Berlin</div>`)[0];
+            popup_f3b9671256267f17a7a88fcc7b690bfa.setContent(html_a4f57b58995309e9f26b0ee55eea8193);
+        
+
+        marker_43cfd6c90717aa122c0a7e3b3997a467.bindPopup(popup_f3b9671256267f17a7a88fcc7b690bfa)
+        ;
+
+        
+    
+    
+            var marker_e200d54490650a0afa37b48776baf525 = L.marker(
+                [52.5838, 13.28676],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_276a725f64726e76eb4e3f3d9a1ad770 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e200d54490650a0afa37b48776baf525.setIcon(icon_276a725f64726e76eb4e3f3d9a1ad770);
+        
+    
+        var popup_3ae072f629c1ff61abe7aa6f9ae21505 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_679794f603af268ec972a1cf82abfbce = $(`<div id="html_679794f603af268ec972a1cf82abfbce" style="width: 100.0%; height: 100.0%;">McDonalds<br>Am Borsigturm 2<br>13507 Berlin</div>`)[0];
+            popup_3ae072f629c1ff61abe7aa6f9ae21505.setContent(html_679794f603af268ec972a1cf82abfbce);
+        
+
+        marker_e200d54490650a0afa37b48776baf525.bindPopup(popup_3ae072f629c1ff61abe7aa6f9ae21505)
+        ;
+
+        
+    
+    
+            var marker_1a942e5cf125a4d1aaec19d05e4f07fe = L.marker(
+                [52.50949, 13.43443],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_e0a92d9d9fe0f1a09cfda7e2461a5253 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1a942e5cf125a4d1aaec19d05e4f07fe.setIcon(icon_e0a92d9d9fe0f1a09cfda7e2461a5253);
+        
+    
+        var popup_6870dd747a9f1f00ffb6739352b6b14e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f609ef40f7103b27f826e097e238d34 = $(`<div id="html_7f609ef40f7103b27f826e097e238d34" style="width: 100.0%; height: 100.0%;">McDonalds<br>Am Ostbahnhof 9<br>10243 Berlin</div>`)[0];
+            popup_6870dd747a9f1f00ffb6739352b6b14e.setContent(html_7f609ef40f7103b27f826e097e238d34);
+        
+
+        marker_1a942e5cf125a4d1aaec19d05e4f07fe.bindPopup(popup_6870dd747a9f1f00ffb6739352b6b14e)
+        ;
+
+        
+    
+    
+            var marker_5768eaabfdf82caeb7868e3270326438 = L.marker(
+                [52.55359, 13.54381],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_81a7308f2a97b6fc1aac44c66f336549 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5768eaabfdf82caeb7868e3270326438.setIcon(icon_81a7308f2a97b6fc1aac44c66f336549);
+        
+    
+        var popup_9c4a956b2704758218c93e8f8279696e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1336b9f536108f96c901b21ffd10af68 = $(`<div id="html_1336b9f536108f96c901b21ffd10af68" style="width: 100.0%; height: 100.0%;">McDonalds<br>Bitterfelder Stra�e 9<br>12681 Berlin</div>`)[0];
+            popup_9c4a956b2704758218c93e8f8279696e.setContent(html_1336b9f536108f96c901b21ffd10af68);
+        
+
+        marker_5768eaabfdf82caeb7868e3270326438.bindPopup(popup_9c4a956b2704758218c93e8f8279696e)
+        ;
+
+        
+    
+    
+            var marker_f92a26d0e5b1cf027c0b7ec507eb271d = L.marker(
+                [52.50404, 13.62447],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_14d35aa39c769bebf7849fa48c822014 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f92a26d0e5b1cf027c0b7ec507eb271d.setIcon(icon_14d35aa39c769bebf7849fa48c822014);
+        
+    
+        var popup_4b8b45cbe1bc9aab6b4d73912d14da05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f3653ea0288203afb4a27556a69281e = $(`<div id="html_8f3653ea0288203afb4a27556a69281e" style="width: 100.0%; height: 100.0%;">McDonalds<br>Alt-Mahlsdorf 60<br>12623 Berlin</div>`)[0];
+            popup_4b8b45cbe1bc9aab6b4d73912d14da05.setContent(html_8f3653ea0288203afb4a27556a69281e);
+        
+
+        marker_f92a26d0e5b1cf027c0b7ec507eb271d.bindPopup(popup_4b8b45cbe1bc9aab6b4d73912d14da05)
+        ;
+
+        
+    
+    
+            var marker_9d20b1c4ecbfdd93c558f241e539faad = L.marker(
+                [52.51025, 13.53148],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_6aa471505cc5e93bd5414a2ad4ae71f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9d20b1c4ecbfdd93c558f241e539faad.setIcon(icon_6aa471505cc5e93bd5414a2ad4ae71f7);
+        
+    
+        var popup_d0dd58a286b4b40dbf6a627c6258de00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_515c196d868e1972333fd5f6b155eb5a = $(`<div id="html_515c196d868e1972333fd5f6b155eb5a" style="width: 100.0%; height: 100.0%;">McDonalds<br>Alt-Friedrichsfelde 61<br>10315 Berlin</div>`)[0];
+            popup_d0dd58a286b4b40dbf6a627c6258de00.setContent(html_515c196d868e1972333fd5f6b155eb5a);
+        
+
+        marker_9d20b1c4ecbfdd93c558f241e539faad.bindPopup(popup_d0dd58a286b4b40dbf6a627c6258de00)
+        ;
+
+        
+    
+    
+            var marker_81845013d2087d6796ba5206bb93c53c = L.marker(
+                [52.47503, 13.3682],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_462045b44726a4e9df1a62e0d083e6a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_81845013d2087d6796ba5206bb93c53c.setIcon(icon_462045b44726a4e9df1a62e0d083e6a3);
+        
+    
+        var popup_0e3a5f931cf34a690bb3df1f281fc3fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49655f3bb2b83de3a9c5a4c1c6f6aecb = $(`<div id="html_49655f3bb2b83de3a9c5a4c1c6f6aecb" style="width: 100.0%; height: 100.0%;">McDonalds<br>Werner-Vo�-Damm 62<br>12101 Berlin</div>`)[0];
+            popup_0e3a5f931cf34a690bb3df1f281fc3fe.setContent(html_49655f3bb2b83de3a9c5a4c1c6f6aecb);
+        
+
+        marker_81845013d2087d6796ba5206bb93c53c.bindPopup(popup_0e3a5f931cf34a690bb3df1f281fc3fe)
+        ;
+
+        
+    
+    
+            var marker_1c84756b8b38f90d2841d9b5799b9b10 = L.marker(
+                [52.48228, 13.43313],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_e5c6ecc7e003560bde8c72a12cb41674 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1c84756b8b38f90d2841d9b5799b9b10.setIcon(icon_e5c6ecc7e003560bde8c72a12cb41674);
+        
+    
+        var popup_f25713b1bd7add870c367745d49ed31e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fe08caa21d9b84089f46ca5f39d6b67 = $(`<div id="html_1fe08caa21d9b84089f46ca5f39d6b67" style="width: 100.0%; height: 100.0%;">McDonalds<br>Karl-Marx-Stra�e 66<br>12043 Berlin</div>`)[0];
+            popup_f25713b1bd7add870c367745d49ed31e.setContent(html_1fe08caa21d9b84089f46ca5f39d6b67);
+        
+
+        marker_1c84756b8b38f90d2841d9b5799b9b10.bindPopup(popup_f25713b1bd7add870c367745d49ed31e)
+        ;
+
+        
+    
+    
+            var marker_ed1626e7532f4105c5369dffe6a7ffef = L.marker(
+                [52.53973, 13.43739],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_b4446a9e3a82366975cb40dabcee90d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ed1626e7532f4105c5369dffe6a7ffef.setIcon(icon_b4446a9e3a82366975cb40dabcee90d1);
+        
+    
+        var popup_18943d96a6aced747dea35b234111bd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b90a7d4b716fec9c1e78d32a70872084 = $(`<div id="html_b90a7d4b716fec9c1e78d32a70872084" style="width: 100.0%; height: 100.0%;">McDonalds<br>Greifswalder Stra�e 80<br>10405 Berlin</div>`)[0];
+            popup_18943d96a6aced747dea35b234111bd7.setContent(html_b90a7d4b716fec9c1e78d32a70872084);
+        
+
+        marker_ed1626e7532f4105c5369dffe6a7ffef.bindPopup(popup_18943d96a6aced747dea35b234111bd7)
+        ;
+
+        
+    
+    
+            var marker_c351504208675b1f43686b0705026e6f = L.marker(
+                [52.53317, 13.19843],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_1f0929aac9c03b8f7dffc647439ec9d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c351504208675b1f43686b0705026e6f.setIcon(icon_1f0929aac9c03b8f7dffc647439ec9d6);
+        
+    
+        var popup_fc4883bcaa09eddff7cb3a0952188aca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a9747c30b5ea400004b002c515f0e05 = $(`<div id="html_2a9747c30b5ea400004b002c515f0e05" style="width: 100.0%; height: 100.0%;">McDonalds<br>Klosterstra�e 3<br>13581 Berlin</div>`)[0];
+            popup_fc4883bcaa09eddff7cb3a0952188aca.setContent(html_2a9747c30b5ea400004b002c515f0e05);
+        
+
+        marker_c351504208675b1f43686b0705026e6f.bindPopup(popup_fc4883bcaa09eddff7cb3a0952188aca)
+        ;
+
+        
+    
+    
+            var marker_aa181ed81c7ebfb6f45fdc4d8408ad4e = L.marker(
+                [52.46976, 13.44223],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_e9515725dfab6d7250b0ae5ba4217405 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_aa181ed81c7ebfb6f45fdc4d8408ad4e.setIcon(icon_e9515725dfab6d7250b0ae5ba4217405);
+        
+    
+        var popup_1fba876cd4a3838be7af174accd1b6f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84a12e8bf321cc4833402e10f3b5d942 = $(`<div id="html_84a12e8bf321cc4833402e10f3b5d942" style="width: 100.0%; height: 100.0%;">McDonalds<br>Saalestra�e 83<br>12055 Berlin</div>`)[0];
+            popup_1fba876cd4a3838be7af174accd1b6f9.setContent(html_84a12e8bf321cc4833402e10f3b5d942);
+        
+
+        marker_aa181ed81c7ebfb6f45fdc4d8408ad4e.bindPopup(popup_1fba876cd4a3838be7af174accd1b6f9)
+        ;
+
+        
+    
+    
+            var marker_42d995591c450f950a2afcf00d47f4e4 = L.marker(
+                [52.56069, 13.36478],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_7287547f2dc5cc7dc3f74f52bd2d1930 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_42d995591c450f950a2afcf00d47f4e4.setIcon(icon_7287547f2dc5cc7dc3f74f52bd2d1930);
+        
+    
+        var popup_f976b448eed71cb628d3487fc3b95b9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9dae959498907c4a3458969504d39060 = $(`<div id="html_9dae959498907c4a3458969504d39060" style="width: 100.0%; height: 100.0%;">McDonalds<br>Markstra�e 16<br>13409 Berlin</div>`)[0];
+            popup_f976b448eed71cb628d3487fc3b95b9f.setContent(html_9dae959498907c4a3458969504d39060);
+        
+
+        marker_42d995591c450f950a2afcf00d47f4e4.bindPopup(popup_f976b448eed71cb628d3487fc3b95b9f)
+        ;
+
+        
+    
+    
+            var marker_361df3ff3f13ce88cd0f11662f7c504b = L.marker(
+                [52.43646, 13.46525],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_af40e2a1d0c4d6e94ddce5e458cb2710 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_361df3ff3f13ce88cd0f11662f7c504b.setIcon(icon_af40e2a1d0c4d6e94ddce5e458cb2710);
+        
+    
+        var popup_33181ab7713daa88619d3fb1e9edbbd6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b7990fd76ee5cc289a8fe6f1c1c4c37 = $(`<div id="html_0b7990fd76ee5cc289a8fe6f1c1c4c37" style="width: 100.0%; height: 100.0%;">McDonalds<br>Rudower Stra�e 100<br>12351 Berlin</div>`)[0];
+            popup_33181ab7713daa88619d3fb1e9edbbd6.setContent(html_0b7990fd76ee5cc289a8fe6f1c1c4c37);
+        
+
+        marker_361df3ff3f13ce88cd0f11662f7c504b.bindPopup(popup_33181ab7713daa88619d3fb1e9edbbd6)
+        ;
+
+        
+    
+    
+            var marker_ef9ffad405fbb0f22a6c4892fc91bdff = L.marker(
+                [52.51356, 13.47695],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_06a793f72a8fb544cdb25cf069aa5e64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ef9ffad405fbb0f22a6c4892fc91bdff.setIcon(icon_06a793f72a8fb544cdb25cf069aa5e64);
+        
+    
+        var popup_8f2006fd52da980769f87149f2286735 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d099e50a5af30e3bbdd6038501e4707 = $(`<div id="html_1d099e50a5af30e3bbdd6038501e4707" style="width: 100.0%; height: 100.0%;">McDonalds<br>Frankfurter Allee 117<br>10247 Berlin</div>`)[0];
+            popup_8f2006fd52da980769f87149f2286735.setContent(html_1d099e50a5af30e3bbdd6038501e4707);
+        
+
+        marker_ef9ffad405fbb0f22a6c4892fc91bdff.bindPopup(popup_8f2006fd52da980769f87149f2286735)
+        ;
+
+        
+    
+    
+            var marker_5d6f4855eaafd5a9dc2346b08247ed5c = L.marker(
+                [39.97003, -77.06003],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_a876e9af8900b20bb87e45f892eb9d76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5d6f4855eaafd5a9dc2346b08247ed5c.setIcon(icon_a876e9af8900b20bb87e45f892eb9d76);
+        
+    
+        var popup_79310425c4ad63d589e9eb88dd99af31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5b0d6a99d4d45be5fe884e8e81abbb8 = $(`<div id="html_e5b0d6a99d4d45be5fe884e8e81abbb8" style="width: 100.0%; height: 100.0%;">McDonalds<br>Schlo�stra�e 117<br>12163 Berlin</div>`)[0];
+            popup_79310425c4ad63d589e9eb88dd99af31.setContent(html_e5b0d6a99d4d45be5fe884e8e81abbb8);
+        
+
+        marker_5d6f4855eaafd5a9dc2346b08247ed5c.bindPopup(popup_79310425c4ad63d589e9eb88dd99af31)
+        ;
+
+        
+    
+    
+            var marker_14413c478fa90ac773aaeeed6b11bcb3 = L.marker(
+                [52.45882, 13.2743],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_ac26228911e654ffb40ae2337a4af2a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_14413c478fa90ac773aaeeed6b11bcb3.setIcon(icon_ac26228911e654ffb40ae2337a4af2a6);
+        
+    
+        var popup_bf7c41584752ed67be172b66fe539f91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0999846b820ba18cbdfcb02f4151e069 = $(`<div id="html_0999846b820ba18cbdfcb02f4151e069" style="width: 100.0%; height: 100.0%;">McDonalds<br>Clayallee 121<br>14195 Berlin</div>`)[0];
+            popup_bf7c41584752ed67be172b66fe539f91.setContent(html_0999846b820ba18cbdfcb02f4151e069);
+        
+
+        marker_14413c478fa90ac773aaeeed6b11bcb3.bindPopup(popup_bf7c41584752ed67be172b66fe539f91)
+        ;
+
+        
+    
+    
+            var marker_cd7b71f0a18474ddf054d0b894bff2eb = L.marker(
+                [52.50729, 13.39043],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_db8228bbd0c9a51ed87bc05eeb3355e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cd7b71f0a18474ddf054d0b894bff2eb.setIcon(icon_db8228bbd0c9a51ed87bc05eeb3355e6);
+        
+    
+        var popup_20b36b4f584f07bf9a956a3e83feda15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0f6c852f22e93de658fc016c1cef9d1 = $(`<div id="html_f0f6c852f22e93de658fc016c1cef9d1" style="width: 100.0%; height: 100.0%;">McDonalds<br>Friedrichstra�e 207<br>10969 Berlin</div>`)[0];
+            popup_20b36b4f584f07bf9a956a3e83feda15.setContent(html_f0f6c852f22e93de658fc016c1cef9d1);
+        
+
+        marker_cd7b71f0a18474ddf054d0b894bff2eb.bindPopup(popup_20b36b4f584f07bf9a956a3e83feda15)
+        ;
+
+        
+    
+    
+            var marker_f7724839f8418431a8eae21ac3cd7e38 = L.marker(
+                [52.47146, 13.46095],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_04926eb5092b50cde97a6bc6f295aeb5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f7724839f8418431a8eae21ac3cd7e38.setIcon(icon_04926eb5092b50cde97a6bc6f295aeb5);
+        
+    
+        var popup_93c7f3bc0841d6d76895d7b074958976 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59310ef3844bb2adda98a3e894a3cf6a = $(`<div id="html_59310ef3844bb2adda98a3e894a3cf6a" style="width: 100.0%; height: 100.0%;">McDonalds<br>Sonnenallee 254<br>12057 Berlin</div>`)[0];
+            popup_93c7f3bc0841d6d76895d7b074958976.setContent(html_59310ef3844bb2adda98a3e894a3cf6a);
+        
+
+        marker_f7724839f8418431a8eae21ac3cd7e38.bindPopup(popup_93c7f3bc0841d6d76895d7b074958976)
+        ;
+
+        
+    
+    
+            var marker_97ac6a7ef7b5612634e2977c6a142cf9 = L.marker(
+                [52.43042, 13.45596],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_b78c13421ebf1596a261cbb3e319b3a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_97ac6a7ef7b5612634e2977c6a142cf9.setIcon(icon_b78c13421ebf1596a261cbb3e319b3a2);
+        
+    
+        var popup_594dd5e637ec513c6f8df012e484343a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96ee79ff3fc5ef1b322527ca26073388 = $(`<div id="html_96ee79ff3fc5ef1b322527ca26073388" style="width: 100.0%; height: 100.0%;">McDonalds<br>Johannisthaler Chaussee 295<br>12353 Berlin</div>`)[0];
+            popup_594dd5e637ec513c6f8df012e484343a.setContent(html_96ee79ff3fc5ef1b322527ca26073388);
+        
+
+        marker_97ac6a7ef7b5612634e2977c6a142cf9.bindPopup(popup_594dd5e637ec513c6f8df012e484343a)
+        ;
+
+        
+    
+    
+            var marker_e9ed96fb147a0aae00bd5c08e5d7e47c = L.marker(
+                [52.52834, 13.12373],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_cac43b99ee88c9b8f19928619f2a68da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e9ed96fb147a0aae00bd5c08e5d7e47c.setIcon(icon_cac43b99ee88c9b8f19928619f2a68da);
+        
+    
+        var popup_7146fdf6d1a52b35d08a313c72bf80de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38cd65b60fb439ee03fe10464ee93069 = $(`<div id="html_38cd65b60fb439ee03fe10464ee93069" style="width: 100.0%; height: 100.0%;">McDonalds<br>Heerstra�e 666<br>13591 Berlin</div>`)[0];
+            popup_7146fdf6d1a52b35d08a313c72bf80de.setContent(html_38cd65b60fb439ee03fe10464ee93069);
+        
+
+        marker_e9ed96fb147a0aae00bd5c08e5d7e47c.bindPopup(popup_7146fdf6d1a52b35d08a313c72bf80de)
+        ;
+
+        
+    
+    
+            var marker_504b9efcd973115a4155910a94e885cf = L.marker(
+                [52.51004, 13.37944],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_96c60bdbcbeb4d0fe8d7518fba1111af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_504b9efcd973115a4155910a94e885cf.setIcon(icon_96c60bdbcbeb4d0fe8d7518fba1111af);
+        
+    
+        var popup_97b766feda17cdda287138794a931f9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bebe5d1dd626a6f2c5990c3a9c918ad = $(`<div id="html_7bebe5d1dd626a6f2c5990c3a9c918ad" style="width: 100.0%; height: 100.0%;">McDonalds<br>Leipziger Platz 12-13<br>10117 Berlin</div>`)[0];
+            popup_97b766feda17cdda287138794a931f9f.setContent(html_7bebe5d1dd626a6f2c5990c3a9c918ad);
+        
+
+        marker_504b9efcd973115a4155910a94e885cf.bindPopup(popup_97b766feda17cdda287138794a931f9f)
+        ;
+
+        
+    
+    
+            var marker_68fd735da349482f08d4844514ad4062 = L.marker(
+                [52.48665, 13.4247],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_5f5313c35d072df77291aa30f5bd1671 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_68fd735da349482f08d4844514ad4062.setIcon(icon_5f5313c35d072df77291aa30f5bd1671);
+        
+    
+        var popup_a62568eb19e1a5615ca8586b74e330f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f8809d2dd3a1a2d3b023e53be6592ba = $(`<div id="html_7f8809d2dd3a1a2d3b023e53be6592ba" style="width: 100.0%; height: 100.0%;">McDonalds<br>Hermannplatz 2-3<br>10967 Berlin</div>`)[0];
+            popup_a62568eb19e1a5615ca8586b74e330f3.setContent(html_7f8809d2dd3a1a2d3b023e53be6592ba);
+        
+
+        marker_68fd735da349482f08d4844514ad4062.bindPopup(popup_a62568eb19e1a5615ca8586b74e330f3)
+        ;
+
+        
+    
+    
+            var marker_8c5e012846aee235d179d79797a7f53b = L.marker(
+                [52.41054, 13.38208],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_c65e3bab829c15f93d24c17bb0563dc3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8c5e012846aee235d179d79797a7f53b.setIcon(icon_c65e3bab829c15f93d24c17bb0563dc3);
+        
+    
+        var popup_6c57dde93f0920f432e339330f18f21b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63995218ef6465aeb3b686d9459e0c59 = $(`<div id="html_63995218ef6465aeb3b686d9459e0c59" style="width: 100.0%; height: 100.0%;">McDonalds<br>Buckower Chaussee 100-102<br>12277 Berlin</div>`)[0];
+            popup_6c57dde93f0920f432e339330f18f21b.setContent(html_63995218ef6465aeb3b686d9459e0c59);
+        
+
+        marker_8c5e012846aee235d179d79797a7f53b.bindPopup(popup_6c57dde93f0920f432e339330f18f21b)
+        ;
+
+        
+    
+    
+            var marker_2b28bb4ebdbd6c530935306ac18fa82d = L.marker(
+                [52.50668, 13.30636],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_1af28c7c16035f8a592a0f547ecd82f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2b28bb4ebdbd6c530935306ac18fa82d.setIcon(icon_1af28c7c16035f8a592a0f547ecd82f9);
+        
+    
+        var popup_2f56db59dd250c0dc0f5fe0696879071 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5bed537ce9702c074c1489ffe1cb042 = $(`<div id="html_c5bed537ce9702c074c1489ffe1cb042" style="width: 100.0%; height: 100.0%;">McDonalds<br>Kantstra�e 111a<br>10627 Berlin</div>`)[0];
+            popup_2f56db59dd250c0dc0f5fe0696879071.setContent(html_c5bed537ce9702c074c1489ffe1cb042);
+        
+
+        marker_2b28bb4ebdbd6c530935306ac18fa82d.bindPopup(popup_2f56db59dd250c0dc0f5fe0696879071)
+        ;
+
+        
+    
+    
+            var marker_24ec19e6a157e771172c0887f60967c6 = L.marker(
+                [52.41957, 13.3125],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_34a81b6a97e09dfccf308fa713369512 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_24ec19e6a157e771172c0887f60967c6.setIcon(icon_34a81b6a97e09dfccf308fa713369512);
+        
+    
+        var popup_5881ee314e7fb91b1af1124394ac826b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d96c086c12b07e13aac12da5707fa6bb = $(`<div id="html_d96c086c12b07e13aac12da5707fa6bb" style="width: 100.0%; height: 100.0%;">McDonalds<br>Osdorfer Str. 125a<br>12207 Berlin</div>`)[0];
+            popup_5881ee314e7fb91b1af1124394ac826b.setContent(html_d96c086c12b07e13aac12da5707fa6bb);
+        
+
+        marker_24ec19e6a157e771172c0887f60967c6.bindPopup(popup_5881ee314e7fb91b1af1124394ac826b)
+        ;
+
+        
+    
+    
+            var marker_423be8c342d42701e469783503d46d23 = L.marker(
+                [52.52029, 13.38826],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_cdf12d28eb034536d994957ce0a35b6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_423be8c342d42701e469783503d46d23.setIcon(icon_cdf12d28eb034536d994957ce0a35b6f);
+        
+    
+        var popup_0a4b71e9a63363100d32dd4acf7ff19c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb2dae91d23989747312cdff630a4e67 = $(`<div id="html_cb2dae91d23989747312cdff630a4e67" style="width: 100.0%; height: 100.0%;">McDonalds<br>Friedrichstra�e 141<br>10117 Berlin</div>`)[0];
+            popup_0a4b71e9a63363100d32dd4acf7ff19c.setContent(html_cb2dae91d23989747312cdff630a4e67);
+        
+
+        marker_423be8c342d42701e469783503d46d23.bindPopup(popup_0a4b71e9a63363100d32dd4acf7ff19c)
+        ;
+
+        
+    
+    
+            var marker_b12ac1fb70970d2a98bdba70833b2f25 = L.marker(
+                [52.54314, 13.54333],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_eaa7fade428e38bd67f21d9b2488d84f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b12ac1fb70970d2a98bdba70833b2f25.setIcon(icon_eaa7fade428e38bd67f21d9b2488d84f);
+        
+    
+        var popup_e786b718ca159a80d8193c496473147c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_748f8103e5df876979ce3609f714156d = $(`<div id="html_748f8103e5df876979ce3609f714156d" style="width: 100.0%; height: 100.0%;">McDonalds<br>Marzahner Promenade 1a<br>12679 Berlin</div>`)[0];
+            popup_e786b718ca159a80d8193c496473147c.setContent(html_748f8103e5df876979ce3609f714156d);
+        
+
+        marker_b12ac1fb70970d2a98bdba70833b2f25.bindPopup(popup_e786b718ca159a80d8193c496473147c)
+        ;
+
+        
+    
+    
+            var marker_9e525a2bb52b6173b056ab6ca5b1d54c = L.marker(
+                [52.43165, 13.54671],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_5e16d55a8bd7d547f02de20706647a22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9e525a2bb52b6173b056ab6ca5b1d54c.setIcon(icon_5e16d55a8bd7d547f02de20706647a22);
+        
+    
+        var popup_6f5d04056eb511e34c4c0049117c6e66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d00b004a8873a658ba6ccb2888951b9 = $(`<div id="html_3d00b004a8873a658ba6ccb2888951b9" style="width: 100.0%; height: 100.0%;">McDonalds<br>Adlergestell 289a<br>12489 Berlin</div>`)[0];
+            popup_6f5d04056eb511e34c4c0049117c6e66.setContent(html_3d00b004a8873a658ba6ccb2888951b9);
+        
+
+        marker_9e525a2bb52b6173b056ab6ca5b1d54c.bindPopup(popup_6f5d04056eb511e34c4c0049117c6e66)
+        ;
+
+        
+    
+    
+            var marker_9d7b472e815d81ae033efc4195934306 = L.marker(
+                [52.6028, 13.4698],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_69010c2ca1028cf83b8fea8c91baaaaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9d7b472e815d81ae033efc4195934306.setIcon(icon_69010c2ca1028cf83b8fea8c91baaaaf);
+        
+    
+        var popup_10e881566497b2ca42f1174b3299b78b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d4fa5a1d569e376d9dc45d673295329 = $(`<div id="html_0d4fa5a1d569e376d9dc45d673295329" style="width: 100.0%; height: 100.0%;">McDonalds<br>Schlo�stra�e 34-36<br>12163 Berlin</div>`)[0];
+            popup_10e881566497b2ca42f1174b3299b78b.setContent(html_0d4fa5a1d569e376d9dc45d673295329);
+        
+
+        marker_9d7b472e815d81ae033efc4195934306.bindPopup(popup_10e881566497b2ca42f1174b3299b78b)
+        ;
+
+        
+    
+    
+            var marker_48d8639d09ffe9c8c6a0abac6f8e73a4 = L.marker(
+                [52.53701, 13.21999],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_7a46efc563283ec40737d1b5289f625b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_48d8639d09ffe9c8c6a0abac6f8e73a4.setIcon(icon_7a46efc563283ec40737d1b5289f625b);
+        
+    
+        var popup_149bd8d7caa6d314176391ae229d712a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b34d857b87eb6b69eb1d2413abf0236 = $(`<div id="html_8b34d857b87eb6b69eb1d2413abf0236" style="width: 100.0%; height: 100.0%;">McDonalds<br>Am Juliusturm 40-46<br>13599 Berlin</div>`)[0];
+            popup_149bd8d7caa6d314176391ae229d712a.setContent(html_8b34d857b87eb6b69eb1d2413abf0236);
+        
+
+        marker_48d8639d09ffe9c8c6a0abac6f8e73a4.bindPopup(popup_149bd8d7caa6d314176391ae229d712a)
+        ;
+
+        
+    
+    
+            var marker_64a892150b238a4b6ab9bd6e9272a04b = L.marker(
+                [52.47733, 13.30726],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_9f4abeede56fbac0c2c52c8714c6c346 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_64a892150b238a4b6ab9bd6e9272a04b.setIcon(icon_9f4abeede56fbac0c2c52c8714c6c346);
+        
+    
+        var popup_919780929bc5c79409ab14742b18ace9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfbfda2bc1f6e2882f1a466c7cca7a10 = $(`<div id="html_cfbfda2bc1f6e2882f1a466c7cca7a10" style="width: 100.0%; height: 100.0%;">McDonalds<br>Mecklenburgische Stra�e 65-68<br>14197 Berlin</div>`)[0];
+            popup_919780929bc5c79409ab14742b18ace9.setContent(html_cfbfda2bc1f6e2882f1a466c7cca7a10);
+        
+
+        marker_64a892150b238a4b6ab9bd6e9272a04b.bindPopup(popup_919780929bc5c79409ab14742b18ace9)
+        ;
+
+        
+    
+    
+            var marker_3fa4248041e904bcb88bb17f71de5fd5 = L.marker(
+                [52.50798, 13.33364],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_52061b7ebd68fbe6cc70424959d818a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3fa4248041e904bcb88bb17f71de5fd5.setIcon(icon_52061b7ebd68fbe6cc70424959d818a5);
+        
+    
+        var popup_851056b873619f9f879a79e43c436798 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2855e0f27620006222cd1ae88ff93338 = $(`<div id="html_2855e0f27620006222cd1ae88ff93338" style="width: 100.0%; height: 100.0%;">McDonalds<br>Hardenbergplatz 11<br>10623 Berlin</div>`)[0];
+            popup_851056b873619f9f879a79e43c436798.setContent(html_2855e0f27620006222cd1ae88ff93338);
+        
+
+        marker_3fa4248041e904bcb88bb17f71de5fd5.bindPopup(popup_851056b873619f9f879a79e43c436798)
+        ;
+
+        
+    
+    
+            var marker_c919655ce09e7a893c1941ddff65e62b = L.marker(
+                [52.50395, 13.33746],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_1c8d5427d4110159c481de278416a40a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c919655ce09e7a893c1941ddff65e62b.setIcon(icon_1c8d5427d4110159c481de278416a40a);
+        
+    
+        var popup_24c041b4e158d93c8f7673986e837011 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d14d2487d26a43d120df56380d21019 = $(`<div id="html_5d14d2487d26a43d120df56380d21019" style="width: 100.0%; height: 100.0%;">McDonalds<br>Tauentzienstra�e 9-12<br>10789 Berlin</div>`)[0];
+            popup_24c041b4e158d93c8f7673986e837011.setContent(html_5d14d2487d26a43d120df56380d21019);
+        
+
+        marker_c919655ce09e7a893c1941ddff65e62b.bindPopup(popup_24c041b4e158d93c8f7673986e837011)
+        ;
+
+        
+    
+    
+            var marker_efe64861dee69f91997ee6f1e5beff3c = L.marker(
+                [52.5838, 13.28676],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_7c9fe846faf23cd88c74826b5095785e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_efe64861dee69f91997ee6f1e5beff3c.setIcon(icon_7c9fe846faf23cd88c74826b5095785e);
+        
+    
+        var popup_a20f962fbbbc3193c249fbf979a4e9ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d5360461010942548937ea36cc23760 = $(`<div id="html_3d5360461010942548937ea36cc23760" style="width: 100.0%; height: 100.0%;">Subway<br>Am Borsigturm 2<br>13507 Berlin</div>`)[0];
+            popup_a20f962fbbbc3193c249fbf979a4e9ff.setContent(html_3d5360461010942548937ea36cc23760);
+        
+
+        marker_efe64861dee69f91997ee6f1e5beff3c.bindPopup(popup_a20f962fbbbc3193c249fbf979a4e9ff)
+        ;
+
+        
+    
+    
+            var marker_527e0bf44ff891a981a3f1824419baa0 = L.marker(
+                [52.54965, 13.3874],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_95d29b577639b3b12c247abfbe07ba05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_527e0bf44ff891a981a3f1824419baa0.setIcon(icon_95d29b577639b3b12c247abfbe07ba05);
+        
+    
+        var popup_428b316d4a5f628a0550f937190df3ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d124f6f8f33b04f1e4d84ff14f1e2562 = $(`<div id="html_d124f6f8f33b04f1e4d84ff14f1e2562" style="width: 100.0%; height: 100.0%;">Subway<br>Badstra�e 4<br>13357 Berlin</div>`)[0];
+            popup_428b316d4a5f628a0550f937190df3ff.setContent(html_d124f6f8f33b04f1e4d84ff14f1e2562);
+        
+
+        marker_527e0bf44ff891a981a3f1824419baa0.bindPopup(popup_428b316d4a5f628a0550f937190df3ff)
+        ;
+
+        
+    
+    
+            var marker_547a5a9f5b0ea69f7a0cbcea62185909 = L.marker(
+                [52.51573, 13.39023],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_6929e6c3707d389d7a243b335f1ab3f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_547a5a9f5b0ea69f7a0cbcea62185909.setIcon(icon_6929e6c3707d389d7a243b335f1ab3f5);
+        
+    
+        var popup_ef001da223933283973de1e28e318a62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6c6876f9c68841b5a6a7da55e060a87 = $(`<div id="html_f6c6876f9c68841b5a6a7da55e060a87" style="width: 100.0%; height: 100.0%;">Subway<br>Behrenstra�e 47<br>10117 Berlin</div>`)[0];
+            popup_ef001da223933283973de1e28e318a62.setContent(html_f6c6876f9c68841b5a6a7da55e060a87);
+        
+
+        marker_547a5a9f5b0ea69f7a0cbcea62185909.bindPopup(popup_ef001da223933283973de1e28e318a62)
+        ;
+
+        
+    
+    
+            var marker_e787fb2718390de3cba732643ca39b0f = L.marker(
+                [52.53858, 13.39621],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_373a2e3d5d7ee91fe749f7dc8c01e437 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_e787fb2718390de3cba732643ca39b0f.setIcon(icon_373a2e3d5d7ee91fe749f7dc8c01e437);
+        
+    
+        var popup_67a1e954d2f8737a64b3e58fcfd1e9c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6331b0adbbbc28c74b0f4f46802c7f98 = $(`<div id="html_6331b0adbbbc28c74b0f4f46802c7f98" style="width: 100.0%; height: 100.0%;">Subway<br>Brunnenstrasse 53<br>13355 Berlin</div>`)[0];
+            popup_67a1e954d2f8737a64b3e58fcfd1e9c9.setContent(html_6331b0adbbbc28c74b0f4f46802c7f98);
+        
+
+        marker_e787fb2718390de3cba732643ca39b0f.bindPopup(popup_67a1e954d2f8737a64b3e58fcfd1e9c9)
+        ;
+
+        
+    
+    
+            var marker_7edbf659ca6c594d895a7c61f8439595 = L.marker(
+                [52.53075, 13.3829],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_1fe4a6bcaf5152532d064842cc40dd2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_7edbf659ca6c594d895a7c61f8439595.setIcon(icon_1fe4a6bcaf5152532d064842cc40dd2f);
+        
+    
+        var popup_505d29fcd9fb46196a322d77c39d59e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9953653bab004afbdd352735235ae32 = $(`<div id="html_b9953653bab004afbdd352735235ae32" style="width: 100.0%; height: 100.0%;">Subway<br>Chausseestra�e 22<br>10115 Berlin</div>`)[0];
+            popup_505d29fcd9fb46196a322d77c39d59e0.setContent(html_b9953653bab004afbdd352735235ae32);
+        
+
+        marker_7edbf659ca6c594d895a7c61f8439595.bindPopup(popup_505d29fcd9fb46196a322d77c39d59e0)
+        ;
+
+        
+    
+    
+            var marker_6fbd80a536aa168152ba523e46699ae6 = L.marker(
+                [52.52584, 13.36913],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_5bd5fe8365191cd558228cbba5dc5d1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_6fbd80a536aa168152ba523e46699ae6.setIcon(icon_5bd5fe8365191cd558228cbba5dc5d1a);
+        
+    
+        var popup_27ac02eaea7f42ad696d98a17a4b63f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_743a5e5da3768becd9029d548ddbb6b8 = $(`<div id="html_743a5e5da3768becd9029d548ddbb6b8" style="width: 100.0%; height: 100.0%;">Subway<br>Europaplatz 1<br>10557 Berlin</div>`)[0];
+            popup_27ac02eaea7f42ad696d98a17a4b63f9.setContent(html_743a5e5da3768becd9029d548ddbb6b8);
+        
+
+        marker_6fbd80a536aa168152ba523e46699ae6.bindPopup(popup_27ac02eaea7f42ad696d98a17a4b63f9)
+        ;
+
+        
+    
+    
+            var marker_9048d7a8cbb6596c6aa8988ad63e483d = L.marker(
+                [52.5137, 13.47543],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_9cc0550ab005cc5d2072aaa0b9fc45aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_9048d7a8cbb6596c6aa8988ad63e483d.setIcon(icon_9cc0550ab005cc5d2072aaa0b9fc45aa);
+        
+    
+        var popup_d60b5087d3adee337042335d7093fac9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34587b2aec35395460adaf3794894b21 = $(`<div id="html_34587b2aec35395460adaf3794894b21" style="width: 100.0%; height: 100.0%;">Subway<br>Frankfurter Allee 113<br>10365 Berlin</div>`)[0];
+            popup_d60b5087d3adee337042335d7093fac9.setContent(html_34587b2aec35395460adaf3794894b21);
+        
+
+        marker_9048d7a8cbb6596c6aa8988ad63e483d.bindPopup(popup_d60b5087d3adee337042335d7093fac9)
+        ;
+
+        
+    
+    
+            var marker_ee34257c8c9210de96c5ec037fb056bf = L.marker(
+                [52.51502, 13.4627],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_e54ca88fb5eb9693a42a41a944f47e5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_ee34257c8c9210de96c5ec037fb056bf.setIcon(icon_e54ca88fb5eb9693a42a41a944f47e5b);
+        
+    
+        var popup_e2e342dff8e06e2363453ee0d5f3726d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f53e3e5d078414468edead1b47219dfb = $(`<div id="html_f53e3e5d078414468edead1b47219dfb" style="width: 100.0%; height: 100.0%;">Subway<br>Frankfurter Allee 41<br>10247 Berlin</div>`)[0];
+            popup_e2e342dff8e06e2363453ee0d5f3726d.setContent(html_f53e3e5d078414468edead1b47219dfb);
+        
+
+        marker_ee34257c8c9210de96c5ec037fb056bf.bindPopup(popup_e2e342dff8e06e2363453ee0d5f3726d)
+        ;
+
+        
+    
+    
+            var marker_a80cd5941ad90f56c95262e269ce03d9 = L.marker(
+                [52.52024, 13.4147],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_22158f40a71cbf4cb1622cad1000dde5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_a80cd5941ad90f56c95262e269ce03d9.setIcon(icon_22158f40a71cbf4cb1622cad1000dde5);
+        
+    
+        var popup_f86dba1d7ebe5a82e430f7d7fe34ff3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c564ecd7ae27b8abf51958fb457e1532 = $(`<div id="html_c564ecd7ae27b8abf51958fb457e1532" style="width: 100.0%; height: 100.0%;">Subway<br>Grunerstra�e 20<br>10179 Berlin</div>`)[0];
+            popup_f86dba1d7ebe5a82e430f7d7fe34ff3d.setContent(html_c564ecd7ae27b8abf51958fb457e1532);
+        
+
+        marker_a80cd5941ad90f56c95262e269ce03d9.bindPopup(popup_f86dba1d7ebe5a82e430f7d7fe34ff3d)
+        ;
+
+        
+    
+    
+            var marker_354eb81e6dbe251f0822489f1adb89f1 = L.marker(
+                [52.48715, 13.42462],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_91915b5dd2ea855634e26228746c2023 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_354eb81e6dbe251f0822489f1adb89f1.setIcon(icon_91915b5dd2ea855634e26228746c2023);
+        
+    
+        var popup_c90fefc078e78ad419b7b70d90710e39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_798f069f3882f02b35677e955b49c966 = $(`<div id="html_798f069f3882f02b35677e955b49c966" style="width: 100.0%; height: 100.0%;">Subway<br>Hermannplatz<br>10967 Berlin</div>`)[0];
+            popup_c90fefc078e78ad419b7b70d90710e39.setContent(html_798f069f3882f02b35677e955b49c966);
+        
+
+        marker_354eb81e6dbe251f0822489f1adb89f1.bindPopup(popup_c90fefc078e78ad419b7b70d90710e39)
+        ;
+
+        
+    
+    
+            var marker_0f8270867256bb1e2c536223263559e9 = L.marker(
+                [52.50024, 13.31232],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_106296714468214ef8218aab9042c7b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_0f8270867256bb1e2c536223263559e9.setIcon(icon_106296714468214ef8218aab9042c7b3);
+        
+    
+        var popup_391b23c2fe64559efd93830b72d93b60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9c970eea5e0c8a0b24f14a894b2d6c4 = $(`<div id="html_d9c970eea5e0c8a0b24f14a894b2d6c4" style="width: 100.0%; height: 100.0%;">Subway<br>Kurf�rstendamm 180<br>10707 Berlin</div>`)[0];
+            popup_391b23c2fe64559efd93830b72d93b60.setContent(html_d9c970eea5e0c8a0b24f14a894b2d6c4);
+        
+
+        marker_0f8270867256bb1e2c536223263559e9.bindPopup(popup_391b23c2fe64559efd93830b72d93b60)
+        ;
+
+        
+    
+    
+            var marker_07bc131822be3db65b9d7ae0493e8ddf = L.marker(
+                [52.54314, 13.54333],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_1ab5ceaeddfce61badd67d48b5824ef3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_07bc131822be3db65b9d7ae0493e8ddf.setIcon(icon_1ab5ceaeddfce61badd67d48b5824ef3);
+        
+    
+        var popup_d2eac1976962812cb13da1e95b7a855f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5823d3b30c31cf68698677e5ac2edb1d = $(`<div id="html_5823d3b30c31cf68698677e5ac2edb1d" style="width: 100.0%; height: 100.0%;">Subway<br>Marzahner Promenade 1A<br>12679 Berlin</div>`)[0];
+            popup_d2eac1976962812cb13da1e95b7a855f.setContent(html_5823d3b30c31cf68698677e5ac2edb1d);
+        
+
+        marker_07bc131822be3db65b9d7ae0493e8ddf.bindPopup(popup_d2eac1976962812cb13da1e95b7a855f)
+        ;
+
+        
+    
+    
+            var marker_71ad77486c4a3c584f06e43e669fe1b4 = L.marker(
+                [52.53977, 13.25056],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_cb5899ad04529d38e8dfaefc7dedfce7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_71ad77486c4a3c584f06e43e669fe1b4.setIcon(icon_cb5899ad04529d38e8dfaefc7dedfce7);
+        
+    
+        var popup_87c10cde71c0b89c78ac99377de9d6d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_813e4dd955d9053fc90beea40182376c = $(`<div id="html_813e4dd955d9053fc90beea40182376c" style="width: 100.0%; height: 100.0%;">Subway<br>Nonnendammallee 119<br>13629 Berlin</div>`)[0];
+            popup_87c10cde71c0b89c78ac99377de9d6d9.setContent(html_813e4dd955d9053fc90beea40182376c);
+        
+
+        marker_71ad77486c4a3c584f06e43e669fe1b4.bindPopup(popup_87c10cde71c0b89c78ac99377de9d6d9)
+        ;
+
+        
+    
+    
+            var marker_f6c42adc249d5f1d40438656a252013c = L.marker(
+                [52.51018, 13.43283],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_3adec21ad518394bf1a91aafb8e7f1a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_f6c42adc249d5f1d40438656a252013c.setIcon(icon_3adec21ad518394bf1a91aafb8e7f1a2);
+        
+    
+        var popup_cf0ab8c65a0184b6eadd0d082b6e7fd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0c2d84fface1807d28bec0a11c67fed = $(`<div id="html_b0c2d84fface1807d28bec0a11c67fed" style="width: 100.0%; height: 100.0%;">Subway<br>Ostbahnhof 5-7<br>10243 Berlin</div>`)[0];
+            popup_cf0ab8c65a0184b6eadd0d082b6e7fd3.setContent(html_b0c2d84fface1807d28bec0a11c67fed);
+        
+
+        marker_f6c42adc249d5f1d40438656a252013c.bindPopup(popup_cf0ab8c65a0184b6eadd0d082b6e7fd3)
+        ;
+
+        
+    
+    
+            var marker_27956751edde1ae16246ce12493612a9 = L.marker(
+                [52.43313, 13.24289],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_507b4344bcedbd7828abe0a5652051a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_27956751edde1ae16246ce12493612a9.setIcon(icon_507b4344bcedbd7828abe0a5652051a1);
+        
+    
+        var popup_55482e972830b1706bf04d4def5bbf83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3492996068e6650bd236d2dada492ad8 = $(`<div id="html_3492996068e6650bd236d2dada492ad8" style="width: 100.0%; height: 100.0%;">Subway<br>Potsdamer Stra�e 11<br>14163 Berlin</div>`)[0];
+            popup_55482e972830b1706bf04d4def5bbf83.setContent(html_3492996068e6650bd236d2dada492ad8);
+        
+
+        marker_27956751edde1ae16246ce12493612a9.bindPopup(popup_55482e972830b1706bf04d4def5bbf83)
+        ;
+
+        
+    
+    
+            var marker_0bcddbbc689c0efc6a639ced6c0e3c72 = L.marker(
+                [52.43283, 13.53588],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_31625e52d2702aa9eed61d21febab78e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_0bcddbbc689c0efc6a639ced6c0e3c72.setIcon(icon_31625e52d2702aa9eed61d21febab78e);
+        
+    
+        var popup_a33b45214e75ee4cb1ff2162fafd802e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebd2340fae69ac3b0d8503fbfe975944 = $(`<div id="html_ebd2340fae69ac3b0d8503fbfe975944" style="width: 100.0%; height: 100.0%;">Subway<br>Rudower Chaussee 12<br>12489 Berlin</div>`)[0];
+            popup_a33b45214e75ee4cb1ff2162fafd802e.setContent(html_ebd2340fae69ac3b0d8503fbfe975944);
+        
+
+        marker_0bcddbbc689c0efc6a639ced6c0e3c72.bindPopup(popup_a33b45214e75ee4cb1ff2162fafd802e)
+        ;
+
+        
+    
+    
+            var marker_12317e56c882e21ee6617aa097bfadef = L.marker(
+                [52.54944, 13.41388],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_d77c3d745598aadc83df866d8891a04e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_12317e56c882e21ee6617aa097bfadef.setIcon(icon_d77c3d745598aadc83df866d8891a04e);
+        
+    
+        var popup_25eac5d1f8204036dc3db6353d9c81aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d849c37b3890b597f4ba5da0a2838bf6 = $(`<div id="html_d849c37b3890b597f4ba5da0a2838bf6" style="width: 100.0%; height: 100.0%;">Subway<br>Sch�nhauser Allee 78<br>10439 Berlin</div>`)[0];
+            popup_25eac5d1f8204036dc3db6353d9c81aa.setContent(html_d849c37b3890b597f4ba5da0a2838bf6);
+        
+
+        marker_12317e56c882e21ee6617aa097bfadef.bindPopup(popup_25eac5d1f8204036dc3db6353d9c81aa)
+        ;
+
+        
+    
+    
+            var marker_6647d03952ba4e72648c667887b344f0 = L.marker(
+                [52.53496, 13.19854],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_e24a50fbe4e4d7256d2a851e6938540f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_6647d03952ba4e72648c667887b344f0.setIcon(icon_e24a50fbe4e4d7256d2a851e6938540f);
+        
+    
+        var popup_81be7b453205c02b3462876d58f4004e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ea88ac8912e6674b6de3126f43e4d83 = $(`<div id="html_9ea88ac8912e6674b6de3126f43e4d83" style="width: 100.0%; height: 100.0%;">Subway<br>Seegefelder Stra�e 1<br>13597 Berlin</div>`)[0];
+            popup_81be7b453205c02b3462876d58f4004e.setContent(html_9ea88ac8912e6674b6de3126f43e4d83);
+        
+
+        marker_6647d03952ba4e72648c667887b344f0.bindPopup(popup_81be7b453205c02b3462876d58f4004e)
+        ;
+
+        
+    
+    
+            var marker_c69866518530f53802b694a79a118748 = L.marker(
+                [52.52027, 13.40432],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_a25d3e0b3016f1caa86ca999cf360b71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_c69866518530f53802b694a79a118748.setIcon(icon_a25d3e0b3016f1caa86ca999cf360b71);
+        
+    
+        var popup_3c9627a1b3a2702337fbe985830e90b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0603e796ea00e846459ed1befad30c4 = $(`<div id="html_a0603e796ea00e846459ed1befad30c4" style="width: 100.0%; height: 100.0%;">Subway<br>Spandauer Stra�e 3<br>10178 Berlin</div>`)[0];
+            popup_3c9627a1b3a2702337fbe985830e90b1.setContent(html_a0603e796ea00e846459ed1befad30c4);
+        
+
+        marker_c69866518530f53802b694a79a118748.bindPopup(popup_3c9627a1b3a2702337fbe985830e90b1)
+        ;
+
+        
+    
+    
+            var marker_62055fe68a0145107cbf846ead93d310 = L.marker(
+                [52.43004, 13.25965],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_e8b543e68ec92875b3b3397b16c25225 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_62055fe68a0145107cbf846ead93d310.setIcon(icon_e8b543e68ec92875b3b3397b16c25225);
+        
+    
+        var popup_41e1c2dd3e9ba244b2e829f3eecd55b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6650612f64bd68bc5561df39f3210889 = $(`<div id="html_6650612f64bd68bc5561df39f3210889" style="width: 100.0%; height: 100.0%;">Subway<br>Teltower Damm 43-46<br>14167 Berlin</div>`)[0];
+            popup_41e1c2dd3e9ba244b2e829f3eecd55b7.setContent(html_6650612f64bd68bc5561df39f3210889);
+        
+
+        marker_62055fe68a0145107cbf846ead93d310.bindPopup(popup_41e1c2dd3e9ba244b2e829f3eecd55b7)
+        ;
+
+        
+    
+    
+            var marker_5f8881ec4f2d355424aea5b7e00f5b3c = L.marker(
+                [52.45465, 13.38424],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_f7ca4faf5781c2d0892dea1be35fd220 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_5f8881ec4f2d355424aea5b7e00f5b3c.setIcon(icon_f7ca4faf5781c2d0892dea1be35fd220);
+        
+    
+        var popup_1d73ff252ac6c66be585232b9110b156 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c66acb3bf7888bc79e2271559b577de = $(`<div id="html_5c66acb3bf7888bc79e2271559b577de" style="width: 100.0%; height: 100.0%;">Subway<br>Tempelhofer Damm 227<br>12099 Berlin</div>`)[0];
+            popup_1d73ff252ac6c66be585232b9110b156.setContent(html_5c66acb3bf7888bc79e2271559b577de);
+        
+
+        marker_5f8881ec4f2d355424aea5b7e00f5b3c.bindPopup(popup_1d73ff252ac6c66be585232b9110b156)
+        ;
+
+        
+    
+    
+            var marker_32d54ec4e1025170d4b07c6a5771b4ca = L.marker(
+                [52.4647, 13.32815],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_54add0d7441876f9ea99f30e4d98e89e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_32d54ec4e1025170d4b07c6a5771b4ca.setIcon(icon_54add0d7441876f9ea99f30e4d98e89e);
+        
+    
+        var popup_b654a8a8f4567b6ea3e89886bc0333cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06371e1f5b646453d1e296b94c2c5621 = $(`<div id="html_06371e1f5b646453d1e296b94c2c5621" style="width: 100.0%; height: 100.0%;">Subway<br>Walther-Schreiber-Platz 1<br>12161 Berlin</div>`)[0];
+            popup_b654a8a8f4567b6ea3e89886bc0333cb.setContent(html_06371e1f5b646453d1e296b94c2c5621);
+        
+
+        marker_32d54ec4e1025170d4b07c6a5771b4ca.bindPopup(popup_b654a8a8f4567b6ea3e89886bc0333cb)
+        ;
+
+        
+    
+    
+            var marker_d334a6bf305f4ab3a7fc3936b3029166 = L.marker(
+                [52.5231, 13.46217],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_0b228e42be01c9000a6b417377ebbd4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_d334a6bf305f4ab3a7fc3936b3029166.setIcon(icon_0b228e42be01c9000a6b417377ebbd4a);
+        
+    
+        var popup_8581b04eafd540467c0953d657fa0966 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c140d9bb65afec65a19cb0c9c7b2f26a = $(`<div id="html_c140d9bb65afec65a19cb0c9c7b2f26a" style="width: 100.0%; height: 100.0%;">Subway<br>Zur Rinderauktionshalle 1<br>10247 Berlin</div>`)[0];
+            popup_8581b04eafd540467c0953d657fa0966.setContent(html_c140d9bb65afec65a19cb0c9c7b2f26a);
+        
+
+        marker_d334a6bf305f4ab3a7fc3936b3029166.bindPopup(popup_8581b04eafd540467c0953d657fa0966)
+        ;
+
+        
+    
+    
+            var marker_f5923aad6771d954b7d73f617462d342 = L.marker(
+                [50.87513, 8.01625],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_035b2a953ec10940426f2b1cc2bcf3c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_f5923aad6771d954b7d73f617462d342.setIcon(icon_035b2a953ec10940426f2b1cc2bcf3c8);
+        
+    
+        var popup_39e262fc0fa90a368a7c44e0dff98c27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1da6a55209663a96b08ddf1b7fe9e733 = $(`<div id="html_1da6a55209663a96b08ddf1b7fe9e733" style="width: 100.0%; height: 100.0%;">Starbucks<br>Am Bahnhof 40<br>57072 Siegen</div>`)[0];
+            popup_39e262fc0fa90a368a7c44e0dff98c27.setContent(html_1da6a55209663a96b08ddf1b7fe9e733);
+        
+
+        marker_f5923aad6771d954b7d73f617462d342.bindPopup(popup_39e262fc0fa90a368a7c44e0dff98c27)
+        ;
+
+        
+    
+    
+            var marker_4821a86af5b6d1b9cffe925857ba3f4e = L.marker(
+                [52.52317, 13.4023],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_0647bde5871d9050707e7f92c680210f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_4821a86af5b6d1b9cffe925857ba3f4e.setIcon(icon_0647bde5871d9050707e7f92c680210f);
+        
+    
+        var popup_fe90d818156f1f9c4b28e5d5bfe7d7cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eeb9cf33bc2e8c1ad21bcd5fab92c3b7 = $(`<div id="html_eeb9cf33bc2e8c1ad21bcd5fab92c3b7" style="width: 100.0%; height: 100.0%;">Starbucks<br>Neue Promenade 3<br>10178 Berlin</div>`)[0];
+            popup_fe90d818156f1f9c4b28e5d5bfe7d7cf.setContent(html_eeb9cf33bc2e8c1ad21bcd5fab92c3b7);
+        
+
+        marker_4821a86af5b6d1b9cffe925857ba3f4e.bindPopup(popup_fe90d818156f1f9c4b28e5d5bfe7d7cf)
+        ;
+
+        
+    
+    
+            var marker_f50e3541f85e6fd3d3c0c7966e3ff524 = L.marker(
+                [52.52042, 13.41338],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_0a415bc5ef0e800c4f9f493d24dc5e0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_f50e3541f85e6fd3d3c0c7966e3ff524.setIcon(icon_0a415bc5ef0e800c4f9f493d24dc5e0a);
+        
+    
+        var popup_5fa207107aba0f58aff02a1748e922ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04b5b14067dca6fd1996858a0213c00c = $(`<div id="html_04b5b14067dca6fd1996858a0213c00c" style="width: 100.0%; height: 100.0%;">Starbucks<br>Dircksenstrasse 2<br>10179 Berlin</div>`)[0];
+            popup_5fa207107aba0f58aff02a1748e922ed.setContent(html_04b5b14067dca6fd1996858a0213c00c);
+        
+
+        marker_f50e3541f85e6fd3d3c0c7966e3ff524.bindPopup(popup_5fa207107aba0f58aff02a1748e922ed)
+        ;
+
+        
+    
+    
+            var marker_04ed66ffd1b8c71675790e0c8909da54 = L.marker(
+                [52.52128, 13.41313],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_efdce566d0602c136bbaeedc96be5c85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_04ed66ffd1b8c71675790e0c8909da54.setIcon(icon_efdce566d0602c136bbaeedc96be5c85);
+        
+    
+        var popup_1411191adc01f59ab98ceaa5934f72cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60061a531297691111e36cb977177ae2 = $(`<div id="html_60061a531297691111e36cb977177ae2" style="width: 100.0%; height: 100.0%;">Starbucks<br>Alexanderplatz 2<br>10178 Berlin</div>`)[0];
+            popup_1411191adc01f59ab98ceaa5934f72cd.setContent(html_60061a531297691111e36cb977177ae2);
+        
+
+        marker_04ed66ffd1b8c71675790e0c8909da54.bindPopup(popup_1411191adc01f59ab98ceaa5934f72cd)
+        ;
+
+        
+    
+    
+            var marker_06fd468aafed2f17a472e77dc55d431f = L.marker(
+                [52.52024, 13.4147],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_0046b8c7f04a082489c3decf640de5d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_06fd468aafed2f17a472e77dc55d431f.setIcon(icon_0046b8c7f04a082489c3decf640de5d1);
+        
+    
+        var popup_e937ee9bf42d7d1264c2c1032cf909ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_427b0f3463a27888af62f6806d0763c2 = $(`<div id="html_427b0f3463a27888af62f6806d0763c2" style="width: 100.0%; height: 100.0%;">Starbucks<br>Grunerstrasse 20<br>10719 Berlin</div>`)[0];
+            popup_e937ee9bf42d7d1264c2c1032cf909ae.setContent(html_427b0f3463a27888af62f6806d0763c2);
+        
+
+        marker_06fd468aafed2f17a472e77dc55d431f.bindPopup(popup_e937ee9bf42d7d1264c2c1032cf909ae)
+        ;
+
+        
+    
+    
+            var marker_5fe6e1633322ff27648c78bcc44246c0 = L.marker(
+                [52.51954, 13.38849],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_4c80b2c07e4abc0488b91d5a46c0e775 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_5fe6e1633322ff27648c78bcc44246c0.setIcon(icon_4c80b2c07e4abc0488b91d5a46c0e775);
+        
+    
+        var popup_dc0a9f1e3365d483664a3159cc161578 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_919701d517d7361c6c26de9d7dd604e8 = $(`<div id="html_919701d517d7361c6c26de9d7dd604e8" style="width: 100.0%; height: 100.0%;">Starbucks<br>Friedrichstrasse 96<br>10117 Berlin</div>`)[0];
+            popup_dc0a9f1e3365d483664a3159cc161578.setContent(html_919701d517d7361c6c26de9d7dd604e8);
+        
+
+        marker_5fe6e1633322ff27648c78bcc44246c0.bindPopup(popup_dc0a9f1e3365d483664a3159cc161578)
+        ;
+
+        
+    
+    
+            var marker_4747c29a5e09f88ec4b3bfada57f713c = L.marker(
+                [52.51681, 13.37944],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_552d34c3773470c94b5b156abc34de48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_4747c29a5e09f88ec4b3bfada57f713c.setIcon(icon_552d34c3773470c94b5b156abc34de48);
+        
+    
+        var popup_e86bfa4897c3ce455948ec4d39502877 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1a44c03f12a2bdbcf2167ab7df8f71e = $(`<div id="html_d1a44c03f12a2bdbcf2167ab7df8f71e" style="width: 100.0%; height: 100.0%;">Starbucks<br>Pariser Platz 4a<br>10117 Berlin</div>`)[0];
+            popup_e86bfa4897c3ce455948ec4d39502877.setContent(html_d1a44c03f12a2bdbcf2167ab7df8f71e);
+        
+
+        marker_4747c29a5e09f88ec4b3bfada57f713c.bindPopup(popup_e86bfa4897c3ce455948ec4d39502877)
+        ;
+
+        
+    
+    
+            var marker_a37bbb336fe23ade53e7fc92d26c1964 = L.marker(
+                [52.51033, 13.43248],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_b708accdafa3064dd2177018bdfa1435 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_a37bbb336fe23ade53e7fc92d26c1964.setIcon(icon_b708accdafa3064dd2177018bdfa1435);
+        
+    
+        var popup_1a54e4a29526c1eb88ab1ca0fcc8b84c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d0281db3eda09eb0c8e30d0e68d682d = $(`<div id="html_0d0281db3eda09eb0c8e30d0e68d682d" style="width: 100.0%; height: 100.0%;">Starbucks<br>Am Ostbahnhof<br>10559 Berlin</div>`)[0];
+            popup_1a54e4a29526c1eb88ab1ca0fcc8b84c.setContent(html_0d0281db3eda09eb0c8e30d0e68d682d);
+        
+
+        marker_a37bbb336fe23ade53e7fc92d26c1964.bindPopup(popup_1a54e4a29526c1eb88ab1ca0fcc8b84c)
+        ;
+
+        
+    
+    
+            var marker_c0b763e7de1f5b4cf647ece983afee53 = L.marker(
+                [52.52584, 13.36913],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_801403490426cbad6c709ff574b17104 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_c0b763e7de1f5b4cf647ece983afee53.setIcon(icon_801403490426cbad6c709ff574b17104);
+        
+    
+        var popup_48490db40f72062eccc8c7a1273ebbd0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e8857c9910cfcd7471504b9521f6187 = $(`<div id="html_3e8857c9910cfcd7471504b9521f6187" style="width: 100.0%; height: 100.0%;">Starbucks<br>Europaplatz 1<br>10557 Berlin</div>`)[0];
+            popup_48490db40f72062eccc8c7a1273ebbd0.setContent(html_3e8857c9910cfcd7471504b9521f6187);
+        
+
+        marker_c0b763e7de1f5b4cf647ece983afee53.bindPopup(popup_48490db40f72062eccc8c7a1273ebbd0)
+        ;
+
+        
+    
+    
+            var marker_1ae81cfa362cef7d95c9e297863af170 = L.marker(
+                [52.50908, 13.45082],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_12cbe0743690348bfd932de32ea6fbf4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_1ae81cfa362cef7d95c9e297863af170.setIcon(icon_12cbe0743690348bfd932de32ea6fbf4);
+        
+    
+        var popup_052e484cba0255aa64f9ea572b5b35f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90f072b23f2e1a80c195b07528a96bde = $(`<div id="html_90f072b23f2e1a80c195b07528a96bde" style="width: 100.0%; height: 100.0%;">Starbucks<br>Warschauer Strasse<br>10243 Berlin</div>`)[0];
+            popup_052e484cba0255aa64f9ea572b5b35f0.setContent(html_90f072b23f2e1a80c195b07528a96bde);
+        
+
+        marker_1ae81cfa362cef7d95c9e297863af170.bindPopup(popup_052e484cba0255aa64f9ea572b5b35f0)
+        ;
+
+        
+    
+    
+            var marker_6c5fff84ae19c08a59a5ab9444dc4455 = L.marker(
+                [52.50798, 13.33364],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_2f8debd23378f29b46c90f5ca8a61b00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_6c5fff84ae19c08a59a5ab9444dc4455.setIcon(icon_2f8debd23378f29b46c90f5ca8a61b00);
+        
+    
+        var popup_73df9cb1a4e8505665031ab8b4658a31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4f95db5dfc9253c44cb6f386e420745 = $(`<div id="html_d4f95db5dfc9253c44cb6f386e420745" style="width: 100.0%; height: 100.0%;">Starbucks<br>Hardenbergplatz 11<br>10623 Berlin</div>`)[0];
+            popup_73df9cb1a4e8505665031ab8b4658a31.setContent(html_d4f95db5dfc9253c44cb6f386e420745);
+        
+
+        marker_6c5fff84ae19c08a59a5ab9444dc4455.bindPopup(popup_73df9cb1a4e8505665031ab8b4658a31)
+        ;
+
+        
+    
+    
+            var marker_0a01b46772ffbed87b63591b5b38ce02 = L.marker(
+                [52.50798, 13.33364],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_625a427ea7b7fd8488e9b3cf477874a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_0a01b46772ffbed87b63591b5b38ce02.setIcon(icon_625a427ea7b7fd8488e9b3cf477874a6);
+        
+    
+        var popup_8829d662e616f6cf28706c08da1b3748 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_894e86ed54a66aec79d02e2e68816ff8 = $(`<div id="html_894e86ed54a66aec79d02e2e68816ff8" style="width: 100.0%; height: 100.0%;">Starbucks<br>Hadenbergplatz 11<br>10623 Berlin</div>`)[0];
+            popup_8829d662e616f6cf28706c08da1b3748.setContent(html_894e86ed54a66aec79d02e2e68816ff8);
+        
+
+        marker_0a01b46772ffbed87b63591b5b38ce02.bindPopup(popup_8829d662e616f6cf28706c08da1b3748)
+        ;
+
+        
+    
+    
+            var marker_8de0e9d6354c9bcfe9f285e44e571b9c = L.marker(
+                [52.50403, 13.33262],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_126d84c28020f574d843a106c726c08e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_8de0e9d6354c9bcfe9f285e44e571b9c.setIcon(icon_126d84c28020f574d843a106c726c08e);
+        
+    
+        var popup_a3da473880bd6963bb786341e24baa8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c44fd8922ddd85078048df18979cce67 = $(`<div id="html_c44fd8922ddd85078048df18979cce67" style="width: 100.0%; height: 100.0%;">Starbucks<br>Kurfuerstendamm  231<br>10719 Berlin</div>`)[0];
+            popup_a3da473880bd6963bb786341e24baa8d.setContent(html_c44fd8922ddd85078048df18979cce67);
+        
+
+        marker_8de0e9d6354c9bcfe9f285e44e571b9c.bindPopup(popup_a3da473880bd6963bb786341e24baa8d)
+        ;
+
+        
+    
+    
+            var marker_93f8bd61db385559c607457145b76d11 = L.marker(
+                [52.50592, 13.33198],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_6ad86cfddaa399842eee0e31c9884428 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_93f8bd61db385559c607457145b76d11.setIcon(icon_6ad86cfddaa399842eee0e31c9884428);
+        
+    
+        var popup_85278bf9ffed3431e47c3994e6d229df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83700f142ecf247bd62bb02aef620840 = $(`<div id="html_83700f142ecf247bd62bb02aef620840" style="width: 100.0%; height: 100.0%;">Starbucks<br>Joachimsthaler Stra�e 1-4<br>10623 Berlin</div>`)[0];
+            popup_85278bf9ffed3431e47c3994e6d229df.setContent(html_83700f142ecf247bd62bb02aef620840);
+        
+
+        marker_93f8bd61db385559c607457145b76d11.bindPopup(popup_85278bf9ffed3431e47c3994e6d229df)
+        ;
+
+        
+    
+    
+            var marker_ef6e44109578505f192723515b9e258f = L.marker(
+                [52.50065, 13.31289],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_ee86abe09d89c78cca09f43c5fffb6de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_ef6e44109578505f192723515b9e258f.setIcon(icon_ee86abe09d89c78cca09f43c5fffb6de);
+        
+    
+        var popup_12a358499d15a18acdeefd8ad62bf7c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bb3753e73b8c585acbe3407af8425a8 = $(`<div id="html_7bb3753e73b8c585acbe3407af8425a8" style="width: 100.0%; height: 100.0%;">Starbucks<br>Kurfuerstendamm 61<br>10707 Berlin</div>`)[0];
+            popup_12a358499d15a18acdeefd8ad62bf7c0.setContent(html_7bb3753e73b8c585acbe3407af8425a8);
+        
+
+        marker_ef6e44109578505f192723515b9e258f.bindPopup(popup_12a358499d15a18acdeefd8ad62bf7c0)
+        ;
+
+        
+    
+    
+            var marker_ede7a1bcc589a396644f52beae2e9794 = L.marker(
+                [52.44001, 13.51193],
+                {}
+            ).addTo(map_c87d69d38e53a0ea953cd621ccd456aa);
+        
+    
+            var icon_da50659bbbe8834d55c8969b1032145e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_ede7a1bcc589a396644f52beae2e9794.setIcon(icon_da50659bbbe8834d55c8969b1032145e);
+        
+    
+        var popup_bbaf5693500c8aff89966796acb8a219 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd747fc992a553c8ba0ab7847fa7fe84 = $(`<div id="html_cd747fc992a553c8ba0ab7847fa7fe84" style="width: 100.0%; height: 100.0%;">Starbucks<br>Melli-Beese-Ring 1 Terminal 1 Ebene E2 Abflug<br>12521 Berlin</div>`)[0];
+            popup_bbaf5693500c8aff89966796acb8a219.setContent(html_cd747fc992a553c8ba0ab7847fa7fe84);
+        
+
+        marker_ede7a1bcc589a396644f52beae2e9794.bindPopup(popup_bbaf5693500c8aff89966796acb8a219)
+        ;
+
+        
+    
+</script>
